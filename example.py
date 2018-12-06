@@ -1,5 +1,4 @@
-import this
+import random
 
-
-def foo():
-  assert None
+def get_num():
+    return random.randint(1, 10)
